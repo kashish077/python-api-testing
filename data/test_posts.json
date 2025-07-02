@@ -1,0 +1,17 @@
+[
+  {
+    "title": "first post",
+    "body": "hello world",
+    "userId": 1
+  },
+  {
+    "title": "second post",
+    "body": "automation is fun",
+    "userId": 2
+  },
+  {
+    "title": "third post",
+    "body": "data-driven testing!",
+    "userId": 3
+  }
+]
