@@ -1,7 +1,9 @@
 from utils.config_loader import load_config
 from utils.auth_helper import get_auth_token
 from utils.requests_helper import APIClient
+import pytest
 
+@pytest.mark.auth
 def test_get_users_authenticated():
     config = load_config("secure")
     token = get_auth_token(config["base_url"], config["email"], config["password"])
